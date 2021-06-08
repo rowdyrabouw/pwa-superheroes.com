@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PWA SuperHeroes</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <header>
+      <img src="img/pwa.svg" alt="PWA logo" />
+      <h1>PWA SuperHeroes</h1>
+    </header>
+    <main>
+      <button id="btnInstall" class="hide">Add to Home screen</button>
+      <a href="about.html">about</a>
+      <div class="container">
+        <div class="placeholder">
+          <h2 id="name">&nbsp;</h2>
+        </div>
+        <div class="placeholder">
+          <p id="details">&nbsp;<br />&nbsp;</p>
+        </div>
+        <div class="placeholder img-placeholder" id="image"></div>
+      </div>
+      <div id="snackbar">A new version of this app is available. Click here to update.</div>
+    </main>
+    <script src="js/app.js"></script>
+    <script src="idb.js"></script>
+    <script src="utils.js"></script>
+    <script defer src="js/a2hs.js"></script>
+    <script defer src="js/api.js"></script>
+  </body>
+</html>

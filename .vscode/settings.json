@@ -1,0 +1,28 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true
+  },
+  "files.autoSave": "onFocusChange",
+  "prettier.printWidth": 150,
+  "editor.formatOnSave": true,
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#3c3c3c",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#787828",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "titleBar.activeBackground": "#232323",
+    "titleBar.inactiveBackground": "#23232399",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "statusBar.background": "#232323",
+    "statusBarItem.hoverBackground": "#3c3c3c",
+    "statusBar.foreground": "#e7e7e7",
+    "activityBar.activeBackground": "#3c3c3c",
+    "activityBar.activeBorder": "#787828"
+  },
+  "peacock.color": "#232323"
+}

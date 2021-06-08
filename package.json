@@ -1,0 +1,16 @@
+{
+  "name": "pwa-superheroes.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "cd dist && http-server",
+    "generate": "cd dist && pwa-asset-generator --portrait-only ./img/pwa.svg -i ./index.html -m ./manifest.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "pwa-asset-generator": "^4.1.1"
+  }
+}
